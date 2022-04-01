@@ -5,303 +5,137 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://kit.fontawesome.com/1a0e1cf198.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style\payment.css">
 </head>
-<style>
-     #form{
-        font-family: "helvetica neue",helvetica,arial,sans-serif;
-   
-     } 
-    .h{
-        height: 90px;
-        letter-spacing: 10px;
-        width: 100%;
-        text-align: center;
-        font-size: 40px;
-        font-family: "helvetica neue",helvetica,arial,sans-serif;
-        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
-       
-    }
-
-    #container{
-      width: 700px;
-  
-      height: auto;
-    
-      margin: auto;
-      padding-top: 1px;
- 
-      box-sizing: border-box;
-      padding: 10px;
-   
-     
-    }
-    .expiry{
-        display: flex;
-        /* border: 1px solid black; */
-        /* justify-content: space-between; */
-        margin-top: 5%;
-    }
-    .firstRow{
-        display: flex;
-        justify-content: space-between;
-    }
-    
-       
-  
-    #inputotpdiv{
-        /* border: 1px solid green; */
-        width: 300px;
-        margin: auto;
-        align-items: center;
-    }
-    
-    .h2{
-        text-align: center;
-        
-    }
-    #otp{
-        background-color: white;
-        border-radius: 5px;
-        width: 200px;
-        height: 30px;
-        color: rgb(0, 0, 0);
-        font-weight: bold ;
-        margin-left: 250px;
-        margin-top: 2%;
-
-    }
-    #img{
-        margin-top: 3%;
-        margin-left: 5%;
-    }
-  #card{
-      width: 250px;
-      margin-bottom: 2%;
-  }
-  .in{
-      height: 25px;
-      width: 170px;
-    
-  }
-  .lastinput
-  {
-      width: 200px;
-   
-
-  }
-  #inputotp{
-      margin-left: 60px;
-      margin-bottom: 15px;
-  }
-  #otp:hover{
-    
-    background-color: black;
-    color:white;
-  }
-  #line{
-      border: 1px solid rgb(196, 192, 192);
-  }
-  .paymentimg{
-      width: 80px;
-  }
-  .p{
-      display: flex;
-    width: 100%;
-  }
-  .textp{
-      margin-left: 5%;
-  }
-  #flex>img{
-     width: 50px; 
-     margin-top: 5%;
- 
-  }
-  #flex{
-      margin-left: 4%;
-  }
-
-  .cvv{
-      display: flex;
-      justify-content: space-around;
-      margin-bottom: 2%;
-      margin-left: -5%;
-    
-  }
-  .lassRow{
-      display: flex; 
-      
-  }
-  #two{
-      margin-left: 5%;
-  }
-  #three{
-      margin-left: 10%;
-  }
- 
-  .name{
-      display: flex;
-      justify-content: space-between;
-  }
-  
-
-</style>
-
 <body>
-    <!-- <p class="h">SEPHORA</p> -->
-    <form id ="form">
-    <div id="container">
+    <img src="https://static.tomtop.com/tomtop/cart/images/logo.png?4.1.31" alt="">
+    
+    <div id="bigbox">
+        <div id="payment">
+            
+            <div class="add">
+                <div>
+                    <h2 style="font-size: 14px;">Shradha Mishra </h2>
+                    <p style="font-size: 13px;">Sainath Layout,Old Umarsara</p>
+                   
+                    <p style="font-size: 13px;">Yavatmal.Pincode:445001</p>
+                    <p></p>
+                    <a style="font-size: 13px;" href="">Edit</a>
+                </div>
+                <div class="boc1">
+                   
+                    <img class="do" src="data:image/jpeg;base64,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" alt="">
+                    <a class="s" href="">Ship to Another Address</a>
+                </div>
+            </div>
+            <h1 class="h1">
+                Shipping Method
+            </h1>
+            <div class="ship">
+                <hr>
+                <div class="sh">
+                    <p class="siip">Options</p>
+                    <p class="siip">
+                    Estimated Shipping Time	</p>
+                    <p>Tracking Number	</p>
+                    <p>Shipping Cost</p>
+                </div>
+                <hr>
+          
+            <div class="sh">
+                <p>Standard Shipping			</p>
+                <p>
+                    unavailable	</p>
+                <p>Yes	</p>
+                <p>Unavailable</p>
+            </div>
+            <div class="sh">
+                <p>Duty Free Shipping</p>
+                <p>
+                    unavailable	</p>
+                <p>Yes	</p>
+                <p>Unavailable</p>
+            </div>
+            <div class="sh">
+                <p>Expedited Shipping</p>
+                <p>
+                    unavailable	</p>
+                <p>Yes	</p>
+                <p>Unavailable</p>
+            </div>
+            
+        </div>
+      
         
-        <div>
-            <h2>Checkout</h2>
+        
+        <h1 class="h11">
+           Payment Method
+        </h1>
 
-            <div id="line"></div>
+       
+  
+
+    
+        <form id ="form">
+    <div class="secondRow">
+       
+            <div>
+                <input class="in" id="card" type="password" placeholder="Card number*" required> 
+            </div>
+    <div>
+
+        <div class="cvv">
+            
+            <div>
+                <input class="in" type="number" placeholder="MM*" required> 
+            </div>
+
+            <div >
+                <input class="in" id="two"  type="number" placeholder="YY*" required> 
+            </div>
 
             <div>
-                <h2>Shipping Address</h2>
-                <p>James</p>
-                <p>4500 London Ave</p>
-                <p>Elizabethtown, PA 17022-8734</p>
+                <input class="in" id="three"   type="password" placeholder="CVV/CVC*" required> 
             </div>
 
-            <div id="line"></div>
-
-            <div>
-                <h2>Delivery & Gift Options</h2>
-                <!-- <h3>$6.50-Standard</h3> -->
-            </div>
-
-            <div id="line"></div>
-            <h2>Payment Method</h2>
-
-            <div class="p">
-            <img class="paymentimg" src="https://www.sephora.com/img/ufe/payments/payPal.svg" alt=""/>
-            <h4 class="textp">Pay with Paypal</h4>
-            </div>
-           
-            <div id="line"></div>
-
-            <div class="p">
-            <img class="paymentimg"src="https://www.sephora.com/img/ufe/payments/klarna.svg" alt=""/>
-            <h4 class="textp">Pay with 4 interest-free payments</h4>
         </div>
 
-        <div id="line"></div>
-            
-            <div class="p">
-            <h4> Pay with credit or debit card</h4>
-            <div id="flex">
-           
-            <img src="https://www.sephora.com/img/ufe/payments/visa.svg" alt=""/>
-            <img src="https://www.sephora.com/img/ufe/payments/masterCard.svg" alt=""/>
-            <img src="https://www.sephora.com/img/ufe/payments/americanExpress.svg" alt=""/>
-            <img src="https://www.sephora.com/img/ufe/payments/discover.svg" alt=""/>
-            <img src="https://www.sephora.com/img/ufe/payments/JCPenney.svg" alt=""/>
+        <div class="name">
+       
+            <div>
+                <input class="in" id="card" type="text" placeholder="First name*" required> 
             </div>
 
+            <div>
+                <input class="in" id="card"  type="text" placeholder="Last name*" required> 
             </div>
-
-         
-        <div class="secondRow">
-           
-                <div>
-                    <input class="in" id="card" type="password" placeholder="Card number*" required> 
-                </div>
-        <div>
-
-            <div class="cvv">
-                
-                <div>
-                    <input class="in" type="number" placeholder="MM*" required> 
-                </div>
-
-                <div >
-                    <input class="in" id="two"  type="number" placeholder="YY*" required> 
-                </div>
-
-                <div>
-                    <input class="in" id="three"   type="password" placeholder="CVV/CVC*" required> 
-                </div>
-
-            </div>
-
-            <div class="name">
-           
-                <div>
-                    <input class="in" id="card" type="text" placeholder="First name*" required> 
-                </div>
-
-                <div>
-                    <input class="in" id="card"  type="text" placeholder="Last name*" required> 
-                </div>
-           
-            </div>
-      
-            <div id="line"></div>
-            <div >
-                
-
-                <div  id="inputotpdiv" style="display:none">
-                    <h1 class="h2">Enter OTP</h1>
-                
-                    <input id="inputotp" type="number" value="" placeholder="One Time Password"/>
-                </div>
-
-                    <input id="otp" type = "submit" value="GET OTP" />
-              
-            </div>
-     
-        </form>
+       
+        </div>
   
+        <div id="line"></div>
+        <div >
+            
 
+            <div  id="inputotpdiv" style="display:none">
+                <h1 class="h2">Enter OTP</h1>
+            
+                <input id="inputotp" type="number" value="" placeholder="One Time Password"/>
+            </div>
+
+                <input id="otp" type = "submit" value="GET OTP" />
+          
+        </div>
+ 
+    </form>
+        </div>
+        <div id="bill">
+            
+        </div>
+    </div>
+    
 </body>
 </html>
-<script>
-
-   
-
-    document
-    .querySelector("#form").addEventListener("submit",function(event){
-        event.preventDefault()
-
-    //   document.querySelector("#otp").addEventListener("click",function(){
-
-        document.querySelector("#inputotpdiv").style="display:block"
-        document.querySelector("#otp").value="Place Order"
-
-    //   })
-
-    //    
-    document.querySelector("#otp").addEventListener("click",myfunction)
-    
-    function myfunction()
-    {
-  
-        var input = document.querySelector("#inputotp").value
-        var arr = 1234
-
-        console.log(input)
+<script src="script\payment.js"></script>
 
 
-        // console.log(typeof(arr))
-        
-        if(input==arr)
-        {
-           
-            window.location.href = "payment_successful.html"
-      
-        }
-        else{
-            // console.log(arr)
-            alert("Invalid OTP!")
-        }
-        
-    }
-       
-    })
-    
-    
-        
-    
-
-
-</script>

@@ -1,0 +1,200 @@
+*{
+    font-family:"Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif ;
+}
+#bigbox{
+    /* border: 2px solid red; */
+    width: 80%;
+    display: flex;
+    height: 900px;
+    margin: auto;
+}
+#payment{
+    width: 80%;
+    /* border: 2px solid saddlebrown; */
+
+}
+#bill{
+     width:20%;
+     /* border: 1px solid green; */
+}
+.h1{
+   
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+img{
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.add{
+    display: flex;
+    /* border: 2px solid green; */
+    height: 150px;
+    
+
+}
+.add>div:nth-child(1){
+    border: 2px solid #ff6600;
+    background-color: #fff6e9;
+    width: 30%;
+    /* margin-top: -20px; */
+    margin-right: 20px;
+    padding-left: 5px;
+    margin-right: 20px;
+    justify-content: center;
+}
+.boc1{
+    width: 30%;
+    height: 100%;
+    border: 3px dotted #e1e1e1;
+}
+.do{
+    width:40%;
+    height: 50%;
+    margin-left: 80px;
+   margin-top: 30px;
+
+}
+.s{
+   margin-left: 70px;
+   margin-top: -10px;
+}
+.ship{
+    /* border: 2px solid green; */
+    width:100%;
+    height: 200px;
+}
+.sh{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 10px;
+    margin-left: -40px;
+}
+hr{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+.expiry{
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.firstRow{
+    display: flex;
+    justify-content: space-between;
+}
+
+   
+
+#inputotpdiv{
+    /* border: 1px solid green; */
+    width: 300px;
+    margin: auto;
+    align-items: center;
+}
+
+.h2{
+    text-align: center;
+    
+}
+#otp{
+    background-color: white;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    color: rgb(0, 0, 0);
+    font-weight: bold ;
+    margin-left: 250px;
+    margin-top: 2%;
+
+}
+#img{
+    margin-top: 3%;
+    margin-left: 5%;
+}
+#card{
+  width: 250px;
+  margin-bottom: 2%;
+  margin-left: 20px;
+}
+.in{
+  height: 25px;
+  width: 170px;
+
+}
+.lastinput
+{
+  width: 200px;
+
+
+}
+#inputotp{
+  margin-left: 60px;
+  margin-bottom: 15px;
+}
+#otp:hover{
+
+background-color: black;
+color:white;
+}
+#line{
+  border: 1px solid rgb(196, 192, 192);
+}
+.paymentimg{
+  width: 80px;
+}
+.p{
+  display: flex;
+width: 100%;
+}
+.textp{
+  margin-left: 5%;
+}
+#flex>img{
+ width: 50px; 
+ margin-top: 5%;
+
+}
+#flex{
+  margin-left: 4%;
+}
+
+.cvv{
+  display: flex;
+  /* justify-content: space-around; */
+  margin-bottom: 2%;
+  margin-left: 20px;
+  /* margin-left: -6%; */
+
+}
+.lassRow{
+  display: flex; 
+  
+}
+#two{
+  margin-left: 5%;
+}
+#three{
+  margin-left: 10%;
+}
+
+.name{
+  display: flex;
+  /* justify-content: space-between; */
+  /* margin-left: 20px; */
+}
+
+.siip{
+    margin-left: 80px;
+}
+.h11{
+   
+        font-size: 20px;
+        font-weight: 400;
+        margin-top: 50px;
+    
+}
