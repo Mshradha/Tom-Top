@@ -1,0 +1,155 @@
+
+*{
+    font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+
+body{
+    background-color:#f0f0f0;
+}
+
+
+
+#containershra {
+    display: grid;
+    width: 70%;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-rows: 400px; */
+    /* border:2px solid red; */
+    justify-content: center;
+    margin: auto;
+    /* margin-left: 100px;
+    margin-right: 100px; */
+    /* margin-top: 100px; */
+    padding: 70px;
+    font-family: "helvetica neue", helvetica, arial, sans-serif;
+    color: black;
+    background-color: white;
+    gap: 20px;
+
+}
+#containershra>div:nth-child(2){
+    /* background-color: #ff6600; */
+    margin-top: -50px;
+}
+
+#btn {
+    background-color: #ff6600;
+    height: 40px;
+    width: 35%;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-right: 10px;
+    /* padding-top:50px; */
+}
+#btn2 {
+    background-color: #ff6600;
+    height: 40px;
+    width: 35%;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    margin-top: 60px;
+    /* padding-top:50px; */
+}
+
+#brandshra{
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+}
+#aboutshra{
+    color: #ff6600;
+    font-size: 12px;
+    line-height: 20px;
+    margin: -12px;
+    margin-left: 2.5px;
+}
+#sh{
+    margin-top: -5px;
+    /* margin-top: 60px; */
+}
+
+#priceshra{
+    font-size: 24px;
+    font-weight: 700;
+    color: #ff6600;
+    margin-top: -10px;
+}
+#price{
+    font-size: 13px;
+    font-weight: 400;
+    color: #9f9f9f;
+    text-decoration: line-through;
+}
+#div3{
+    display: flex;
+    gap: 10px;
+    /* margin-top: 20px; */
+    font-size: 13px;
+    font-weight: 400;
+    /* margin-left: 15px; */
+}
+#div4{
+    /* margin-top: 65px; */
+    line-height: 20px;
+}
+#div4>p:nth-child(1){
+    font-size: 20px;
+    /* color: aqua; */
+}
+#div4>p{
+    font-size: 13px;
+}
+#div5{
+    display: flex;
+    gap: 40px;
+    margin-top: -25px;
+    font-size: 14px;
+}
+#btn_ship{
+    border:2px solid #ff6600;
+    border-radius: 5px;
+    height: 30px;
+    margin-top: 13px;
+}
+#div6{
+    display: flex;
+    gap: 50px;
+    margin-top: -03px;
+    font-size: 15px;
+}
+
+#div7{
+    display: flex;
+    gap:5px
+}
+#div7>p:nth-child(1){
+    margin-right: 40px;
+}
+
+#shipp2{
+    text-decoration: underline;
+    cursor: grab;
+    font-size: 12px;
+    margin-top: 20px;
+}
+#shipp2:hover{
+    color:blue;
+}
+#imagebox{
+    cursor: move
+}
+#div_f{
+    display: flex;
+    
+}
+#div_f>p{
+    margin-right: 80px;
+}
+#div_f>button{
+    width: 40px;
+    height: 30px;
+    margin-top: 12px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <input id="image" type="text" placeholder="Enter image url">
+        <input id="name" type="text" placeholder="Enter name">
+        <input id="price" type="number" placeholder="enter price">
+        <input type="submit">
+    </form>
+</body>
+</html>
+<script>
+    document.querySelector("form").addEventListener("submit",myfunction)
+    var objectTo=[]
+    function myfunction(){
+        event.preventDefault();
+        var image=document.querySelector("#image").value;
+        var name=document.querySelector("#name").value;
+        var price=document.querySelector("#price").value;
+
+        var object={
+            image:image,
+            name:name,
+            price:price
+        }
+        objectTo.push(object)
+        localStorage.setItem("objects",JSON.stringify(objectTo))
+        
+    }
+</script>
