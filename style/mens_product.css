@@ -7,7 +7,6 @@ body{
     background-color: whitesmoke;
 }
 
-
 #shr{
     margin-top: -8px;
     width: 101%;
@@ -22,9 +21,246 @@ body{
 #div{
     background-color: #f0f0f0;
     height: 110px;
-    width: 2226px;
+    width: 101%;
     display: flex;
+    margin: auto;
+}
+#flag{
+    width: 30px;
+    height: 30px;
+    
+}
+
+.la{
+    width:12%;
+    text-align: center;
+    margin: auto;
+    /* border:2px solid red; */
+}
+.laa{
+    width: 35%;
+    /* border: 2px solid red; */
+    display: flex;
+}
+.laa>div:nth-child(1){
+    width: 20%;
+    height: 45px;
+    text-align: center;
+    background-color: white;
+    /* border: 2px solid firebrick; */
+    margin: auto;
+    }
+    
+ .laa>div:nth-child(2){
+     width:80%;
+     /* border: 2px solid navy; */
+     margin: auto;
+     height: 45px;
+ }
+ .lim{
+     background-color: white;
+     /* height: 45px; */
+ }   
+#searchbar{
+    width: 100%;
+    background-color: white;
+    border: none;
+    /* border: 2px solid navy; */
+   height: 45px;
+}
+.ya{
+    width:8%;
+    /* border: 2px solid red; */
+    margin: auto;
+    text-align: center;
+}
+.ya>a{
+    text-decoration: none;
+    color: black;
+    margin: auto;
+
+}
+#nav{
+    width: 101%;
     /* margin: auto; */
+    height:55px;
+    /* border: 2px solid red; */
+    background-color: white;
+    margin-bottom: 20px;
+    display: flex;
+}
+#nav>div{
+    /* border: 2px solid purple; */
+    width:12%;
+    margin-left: 10px;
+    background-color: white;
+    align-items: center;
+    /* margin: auto; */
+}
+#nav>div:nth-child(1){
+    width: 20%;
+}
+#nav>div>select{
+    width: 80%;
+    height: 100%;
+    background-color: white;
+    font-size: 16px;
+    margin: auto;
+    margin-left: 50px;
+    border: none;
+}
+#nav>div>p{
+    align-items: center;
+    background-color: white;
+}
+#nav>div>img{
+    /* width: 100%;
+    height: 100%; */
+    align-items: center;
+    margin-top: 10px;
+    /* margin-left: 30px; */
+}
+nav {
+    /* background-color: black; */
+    /* position: fixed; */
+    width: 100%;
+    z-index: 999;
+    width:20%;
+    /* height: 65px; */
+    line-height: 45px;
+
+
+}
+ 
+
+
+.nav-link li {
+    list-style: none;
+    /* color:white; */
+
+}
+
+
+.nav-link li a {
+    text-decoration: none;
+    /* color: black; */
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 15px;
+    color: black;
+
+}
+.footer{
+    /* border: 2px solid green; */
+    width:1550px;
+    height:500px;
+    background-color: white;
+    margin-top: 50px;
+   
+}
+.fo{
+    /* border: 2px solid darkblue; */
+    height: 100px;
+    background-color: white;
+    display: flex;
+    
+    justify-content: space-around;
+    /* margin-bottom: 10px; */
+}
+.fo>div{
+    /* border: 5px solid rebeccapurple; */
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    
+    /* margin-top: 20px; */
+    /* margin: auto; */
+}
+h3{
+    background-color: white;
+    margin-right: 20px;
+    padding-top: 10px;
+}
+.fo>div>img{
+    /* width: 80%; */
+    height:40%;
+    padding-top: 25px;
+    background-color: white;
+}
+.foo{
+    /* border:2px solid saddlebrown; */
+    height:400px;
+    background-color: white;
+    display: flex;
+   justify-content: space-evenly;
+}
+.foo>div{
+    background-color: white;
+}
+.foo>div>ul{
+    background-color: white;
+}
+.foo>div>ul>a{
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+}
+.ssa>li{
+    list-style: none;
+    background-color: white;
+    color: black;
+    
+}
+.ssa{
+    background-color: white;
+}
+.ssa>li>a{
+    background-color: white;
+    text-decoration:none ;
+    color: black;
+    font-weight: 400;
+    font-size: 12px;
+}
+.ssa>li>a:hover{
+    color:blue;
+}
+.foo>div>ul>a>li>a{
+    background-color: white;
+   
+}
+#dd{
+     margin-top: 20px;
+}
+.i{
+    border-radius: 50%;
+}
+#sss{
+    background-color: white;
+    justify-content: center;
+    padding-top: 32px;
+}
+.pap{
+    background-color: white;
+}
+input{
+    background-color: white;
+}
+.sa{
+    background-color: #ff6600;;
+    color: white;
+}
+.sa:hover{
+    background-color: #eb6308;
+}
+.sl{
+    font-size: 12px;
+}
+.aw{
+    background-color: white;
+    /* margin-left: 35px; */
 }
 #main{
     display: flex;

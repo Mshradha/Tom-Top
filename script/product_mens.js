@@ -39,6 +39,9 @@ var productArr=  [] ;
 
             var price=document.createElement("p");
             price.textContent=el.price;
+            price.style.color="#ff6600"
+            price.style.fontWeight="700"
+            price.style.fontSize="14px"
             price.setAttribute("id","priceshra");
 
 
