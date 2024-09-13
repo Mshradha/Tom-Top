@@ -20,16 +20,6 @@ TomTop is US based E-Commerce website which provids products like Technical,Non-
 - FAQ 
 - How it works page
 
-## Deployment Link
-
-https://tomtopclone.netlify.app/
-
-
-## Feedback
-
-If you have any feedback, please reach out to us at our respective linkedin profiles mentioned above
-
-
 ## Installation
 
 - Clone my project
